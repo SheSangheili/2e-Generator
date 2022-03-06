@@ -1,0 +1,83 @@
+Acute Hearing: You hear good +20% bonus to perception that involve listening.
+Aethyric Attunement: Tuned to that Aethyr +10% on Channelling and Magical Sense skill tests.
+Alley Cat: Everybody wants to be a cat. +10% bonus on Concealment and Silent Move when in urban locations.
+Ambidextrous: Both hands! You don't suffer -20% WS or BS penalty when not using main hand.
+Arcane Lore: You have studied one of the Empire’s traditions of magic. Arcane Lore is unusual in that it is not one talent, but many. Such is the study and focus required that you can only ever know one. Each Arcane Lore talent is a separate magical proficiency, with the specialty noted in parenthesis. For example, Arcane Lore (Beasts) is a different talent than Arcane Lore (Fire). The most common Arcane Lores, known as the Eight Orders of Magic, are Beasts, Death, Fire, the Heavens, Life, Light, Metal, and Shadow. If you know an Arcane Lore, you can attempt to cast any spell from that lore. See Chapter 7: Magic for spell lists and further details.
+Armoured Casting: Casting Roll penalty when wearing armour is reduced by 3.
+Artistic: +20% bonus on Trade (Artist) tests and +10% bonus on evaluate "objects d'art"
+Contortionist: +10% bonus on relevant Preformer tests and +20% on Agility tests to escape bonds, squeeze through narrow openings, etc.
+Coolheaded: +5% bonus to WP
+Dark Lore: You have embraced one of the forbidden arts of sorcery. Dark Lore is unusual in that it is not one talent, but many. Such is the study and focus required that you can only ever know one. Each Dark Lore talent is a separate magical proficiency, with the specialty noted in parenthesis. For example, Dark Lore (Chaos) is a different talent than Dark Lore (Necromancy). The most common Dark Lores are Chaos and Necromancy. Future supplements will detail additional Dark Lores, including those of the Chaos powers Nurgle, Slaanesh, and Tzeentch. If you know a Dark Lore, you can attempt to cast any spell from that lore. See Chapter 7: Magic for spell lists and further details. 
+Dark Magic: You're quite Dhar-ful. Using dark magic gives you more power but is more dangerous. When you cast a spell, you can opt to use the energy of Dhar to fuel it. When making a Casting Roll for a Dark Magic spell, you roll an extra d10 and drop the die with the lowest result. However, all dice count for the purposes of Tzeentch’s Curse. For example, a wizard with Magic 2 who casts a dark magic spell rolls 3d10 and uses the highest two dice for his Casting Roll. All three dice are used to determine Tzeentch’s Curse. If he rolled a 6, 6, and 6, the Casting Roll would be 12 (6+6), but the spell would trigger a Major Chaos Manifestation. You must use Dark Magic when casting a Dark Lore spell. See Chapter 7: Magic for more information on spellcasting. 
+Dealmaker: Bidness. +10% bonus on Evaluate and Haggle.
+Disarm: If you hit with a melee attack you may attempt to disarm them instead of doing damage. Make an opposed Agility test. If you win, opponent is disarmed and weapon falls to the ground and can be picked up with a ready action. Natural weapons can't be disarmed.
+Divine Lore: Your dedication to your deity is such that your prayers can produce magical effects. Divine Lore is unusual in that it is not one talent, but many different ones. Such is the devotion required that you can only ever know one Divine Lore. Each Divine Lore talent is a separate magical proficiency, with the specialty noted in parenthesis. For example, Divine Lore (Sigmar) is a different talent than Divine Lore (Ulric). The most common Divine Lores correspond to the major deities of the Old World: Manann, Morr, Myrmidia, Ranald, Sigmar, Shallya, Taal/Rhya, Ulric, Verena. If you know a Divine Lore, you can attempt to cast any spell from that lore. See Chapter 7: Magic for spell lists and further details.
+Dwarfcraft: Diggy Diggy! +10% bonus on following trades: Armourer, Brewer, Gem Cutter, Gunsmith, Miner, Smith, Stoneworker, and Weaponsmith.
+Etiquette: +10% on Charm and Gossip when dealing with nobility also can apply to other situations where knowing the proper etiquette is important (impersonating a noble for example)
+Excellent Vision: You see good. +10% on Perception tests that involve sight and Lip Reading.
+Fast Hands: You can touch this, you gain +20% WS when casting touch spells.
+Fearless: Immune to fear and treat terror as fear. Immune to intimidate and unsettling.
+Flee!: When running away from combat +1 bonus to movement for 1d10 rounds
+Fleet Footed: Permanent +1 bonus to movement.
+Flier: You can fly!
+Frenzy: You spend a round psyching youself up then next round you lose control gaining +10% to Str and WP but a -10% penalty to WS and Int, you must attack nearest enemy in melee combat and all attacks must be all out attaks, charge attacks, or swift attacks, and you cannot flee or retreat. You angy till combat is over.
+Frightening: You cause fear.
+Grudge-born Fury: You really hate goblins so you gain +5% WS when attacking Orcs, Gobbos, or Hobgoblins.
+Hardy: +1 to wounds.
+Hedge Magic: You are a self-taught spellcaster who has figured out how to work magic by trial and error. You can cast Petty Magic (Hedge) spells only without having the Speak Arcane Language skill; the Petty Magic (Hedge) talent is still required. You must roll an extra d10 when casting a spell. This does not add into your Casting Roll, but does count for the purposes of Tzeentch’s Curse. Once you learn an Arcane Language, you no longer have to roll the extra die
+Hoverer: You can fly! Sort of.
+Keen Senses: +20% to perception tests.
+Lesser Magic:  You know a spell common to all types of magic. Lesser Magic is unusual in that it is not one talent, but many, and each must be acquired individually. Each Lesser Magic talent is a separate spell, with the spell name noted in parenthesis. For example, Lesser Magic (Dispel) is a different talent than Lesser Magic (Skywalk). The most common Lesser Magic spells are Aethyric Armour, Blessed Weapon, Dispel, Magic Alarm, Magic Lock, Move, Silence, and Skywalk. See Chapter 7: Magic for more information on Lesser Magic and descriptions of the various spells. You must have a Petty Magic talent before you can learn a Lesser Magic talent.
+Lightning Parry: When you swift attack you can forgo one to gain a free parry. If you have 3 attacks you could you can attack twice and have a parry, though still only one parry per round still applies.
+Lightning Reflexes: +5% to Agi.
+Linguistics: You have natural affinty to languages. +10% bonus on all Read/Write and Speak Language tests
+Luck: Extra fortune point each day
+Marksman: +5% bonus to BS
+Master Gunner: Reduce reload time of all black powder weapons by a half action. If you have rapid reload you gain benefits of both talents thus you could reduce reload by a full action.
+Master Orator: You affect 100 times the normal amount of people when using Charm. Note: You must have Public Speaking before you can gain this talent.
+Meditation: When performing ritual magic you gain bonus to casting roll equal to magic characteristic.
+Menacing: You're imposing weather it be due to size, demeanour, or appearence. You gain +10% bonus to Intimidate and Troture
+Mighty Missile: MAGIC MISSILE! +1 damage bonus with magic missile spells.
+Mighty Shot: +1 damage bonus with missile weapons
+Mimic: Are you copying them? +10% bonus on Preformer (Actor, Clown, Comedian, Jester, and Storyteller) tests, Disguise tests if there is a verbal component, and speak language tests if trying to pass as a native speaker.
+Natural Weapons: When attacking without a weapon you count as being armed, can't parry but can't be disarmed
+Night Vision: You can see up to 30 yards in the dark, cannot see in total darkness need at least starlight
+Orientation: +10% bonus on Navigation tests
+Petty Magic: You know the most basic of magical techniques. Like Arcane Lore, it not one talent but many. Each Petty Magic talent is a separate magical proficiency, with the specialty noted in parenthesis. For example, Petty Magic (Arcane) is a different talent than Petty Magic (Divine). The most common Petty Magic talents are Arcane, Divine, and Hedge. If you know a Petty Magic talent and you have a Magic Characteristic of at least 1, you can attempt to cast any spell from that talent. See Chapter 7: Magic for spell lists and further details
+Public Speaking: Affect 10 times the normal number of people when using Charm
+Quick Draw: You can draw weapons or other items quickly but only once per round 
+Rapid Reload: You reduce the reload time of all missile weapons by half. So full to half, half to free and you can make swift attacks with them
+Resistance to Chaos: +10% bonus on WP to resist magic and chaos effects, immune to chaos mutation, however can't use magic.
+Resistance to Disease: +10% bonus on Toughness tests to resist disease
+Resistance to Magic: +10% bonus on WP to resist magic
+Resistance to Poison: +10% bonus on Toughness tests to resist poison
+Rover: +10% on Concealment and Silent move when in rural locations
+Savvy: +5% bonus on Int
+Schemer: +10% bonus on intrigue-releated charm tests and on WP tests to resist charm
+Seasoned Traveller: +10% bonus on Common Knowledge and Speak Language tests
+Sharpshooter: When you aim you get a +20% instead of the normal +10%
+Sixth Sense: You get a strange feeling when you are in grave danger, and this sometimes alerts you to trouble before it happens. When danger is afoot, the GM may secretly roll a test on your Will Power. If successful, the GM may tell you that you have a  bad feeling about your situation or that you feel like you’re being watched. This talent may enable to you to avoid being surprised when the rest of your allies succumb.
+Specialist Weapon Group (Various): You know how to use a group of weapons that require special training. Specialist Weapon Group is unusual in that it is not one talent, but many and each must be acquired individually. Each Specialist Weapon Group talent is a separate proficiency, with the specialty noted in parenthesis. For example, Specialist Weapon Group (Two-handed) is a different talent than Specialist Weapon Group (Throwing). The most common Specialist Weapon Group talents are: Cavalry, Crossbow, Engineer, Entangling, Fencing, Flail, Gunpowder, Longbow, Parrying, Sling, Throwing, and Two-handed. For details on the weapons included in each group, see Chapter 5: Equipment. 
+Stout-hearted: Very brave. +10% bonus on fear and terror tests and WP tests to resist intimidate attempts.
+Street Fighting: +10% bonus to WS and +1 bonus to damage on unarmed attacks
+Streetwise: +10% bonus on Gossip and Charm checks when dealing with criminals
+Strike Mighty Blow: You hit hard you get +1 bonus on damage with melee
+Strike to Injure: Critial Value of any Critial Hit is increased by 1
+Strike to Stun: If you hit with a melee attack, you may attempt to stun your opponent instead of inflicting damage. First, you must make a Strength Test. If that is successful, your opponent must make a Toughness Test, with a +10% bonus for each AP on his head. If he fails, your opponent is stunned for 1d10 rounds. Stunned characters cannot take any actions and cannot dodge.
+Strong-minded: Your mind is strong but once you have 8 insanity points you have to make a sanity check
+Sturdy: Brawny boi. You do not suffer any movement penalties while wearin heavy/plate armour. If you have encumbrance values with a character with the sturdy talent you ignore the enucumbrance of the armour worn though the -10% Agi modifier still applies.
+Suave: +5% bonus to Fellowship
+Sure Shot: Sinper. When you hit with ranged attacks you can ignore 1 armour point but does not help if they are unarmored.
+Surgery: You know the most advanced scientific healing techniques. You gain a +10% on Heal Skill Tests. If you are treating a heavily wounded patient, a successful test heals 2 Wounds instead of the normal 1. If this character is in danger of losing a limb from a Critical Hit (see Chapter 6: Combat, Damage, and Movement), you also provide the patient with a +20% Toughness bonus on the test to resist limb loss.
+Super Numerate: Numbers are your jam. +10% bonus on Gamble and navigation tests and +20% bonus on perception tests that involve estimation
+Swashbuckler: Yarhar. You can use the Jump/Leap action as a half action and increase how far you jump by 1 yard.
+Terrifying: You cause terror, how terrifying.
+Trapfinder: Expert trap finder +10% bonus to perception and pick lock tests that involve locating and disarming traps.
+Trick Riding: Capable of cool tricks on horsback you can do handstands on a galloping mount, leap from horse to horse, etc. You only need to take ride skill tests under the most extreme conditions and even then you get a +10% bonus.
+Tunnel Rat: Become one with the stone and dirt. You gain +10% bonus on Concealment and silent move when in underground locations.
+Undead: You are a creature of undeath, hideously reanimated by necromantic magic (see Chapter 7: Magic). You are immune to Fear, Terror, stunning, poison, disease, and all spells, skills, and effects that involve the manipulation of emotions and the mind.
+Unsettling: You disturb people for fun. Enemies must make a successful WP test on seeing you or suffer -10% on WS and BS. Each round they may test to try to overcome it or no longer see you.
+Very Resilient: +5% bonus to Toughness
+Very Strong: +5% bonus on Strength
+Warrior Born: +5% bonus on Weapon Skill
+Wrestling: You can make unarmed attacks with +10% WS when you are trying to grapple. You also gain +10% bonus on grappling strength checks.

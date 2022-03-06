@@ -1,0 +1,60 @@
+Agitator:Coolheaded,Street Fighting,Flee!,Public Speaking
+Apprentice Wizard:Aethyric Attunement,Fast Hands,Savvy,Very Resilient,Petty Magic
+Bailiff:Etiquette,Super Numerate,Public Speaking
+Barber-Surgeon:Resistance to Disease,Savvy,Suave,Very Resilient,Surgery
+Boatman:Orientation,Seasoned Traveller
+Bodyguard:Disarm,Quick Draw,Street Fighting,Strike to Stun,Very Strong,Very Resilient,Specialist Weapon Group (Various)
+Bone Picker:Coolheaded,Streetwise,Hardy,Resistance to Disease
+Bounty Hunter:Marksman,Strike to Stun,Rover,Sharpshooter,Strike Mighty Blow,Specialist Weapon Group (Various)
+Burgher:Dealmaker,Savvy,Suave
+Camp Follower:Dealmaker,Street Fighting,Flee!,Hardy,Suave,Resistance to Disease,Seasoned Traveller
+Charcoal-Burner:Flee!,Savvy,Very Strong
+Coachman:Quick Draw,Seasoned Traveller,Specialist Weapon Group (Various)
+Entertainer:Contortionist,Lightning Reflexes,Mimic,Public Speaking,Quick Draw,Sharpshooter,Trick Riding,Very Strong,Wrestling,Specialist Weapon Group (Various)
+Envoy:Dealmaker,Seasoned Traveller
+Estalian Diestro:Lightning Reflexes,Swashbuckler,Quick Draw,Strike to Injure,Strike Mighty Blow,Specialist Weapon Group (Various)
+Ferryman:Marksman,Suave,Street Fighting,Specialist Weapon Group (Various)
+Fieldwarden:Fleet Footed,Savvy,Mighty Shot,Rapid Reload,Rover,Quick Draw
+Fisherman:Hardy,Savvy,Orientation,Street Fighting
+Grave Robber:Flee!,Resistance to Disease,Streetwise,Strongminded
+Hedge Wizard:Hedge Magic,Petty Magic
+Hunter:Hardy, Lightning Reflexes,Very Resilient,Marksman,Rover,Rapid Reload,Specialist Weapon Group (Various)
+Initiate:Lightning Reflexes,Very Strong,Public Speaking,Suave,Warrior Born
+Jailer:Resistance to Disease,Resistance to Poison,Specialist Weapon Group (Various),Wrestling
+Kislevite Kossar:Specialist Weapon Group (Various),Strike to Injure
+Kithband Warrior:Marksman,Rover,Rapid Reload,Warrior Born
+Marine:Disarm,Quick Draw,Strike Mighty Blow,Strike to Stun
+Mercenary:Disarm,Quick Draw,Rapid Reload,Strike Mighty Blow,Sharpshooter,Strike to Stun
+Messenger:Orientation,Seasoned Traveller
+Militiaman:Specialist Weapon Group (Various),Rapid Reload,Strike Mighty Blow
+Miner:Orientation,Specialist Weapon Group (Various),Very Resilient,Warrior Born
+Noble:Etiquette,Luck,Public Speaking,Savvy,Specialist Weapon Group (Various),Schemer
+Norse Berserker:Frenzy,Menacing,Quick Draw,Specialist Weapon Group (Various)
+Outlaw:Rover,Streetwise,Sharpshooter,Strike to Stun
+Outrider:Coolheaded,Very Strong,Orientation,Specialist Weapon Group (Various)
+Peasant:Hardy,Rover,Flee!,Specialist Weapon Group (Various)
+Pit Fighter:Disarm,Wrestling,Quick Draw,Strike to Injure,Specialist Weapon Group (Various),Strike Mighty Blow,Very Strong,Strong-minded 
+Protagonist:Disarm,Quick Draw,Menacing,Suave,Street Fighting,Strike Mighty Blow,Strike to Injure,Strike to Stun
+Rat Catcher:Resistance to Disease,Resistance to Poison,Specialist Weapon Group (Various),Tunnel Rat
+Roadwarden:Quick Draw,Rapid Reload,Specialist Weapons Group (Various)
+Rogue:Flee!,Streetwise,Luck,Sixth Sense,Public Speaking
+Runebearer:Flee!,Fleet Footed,Sixth Sense,Orientation,Rapid Reload,Very Resilient,Very Strong 
+Scribe:Linguistics
+Seaman:Hardy,Street Fighting,Seasoned Traveller,Strike Mighty Blow,Swashbuckler
+Servant:Acute Hearing,Flee!,Etiquette,Hardy,Lightning Reflexes,Very Resilient
+Shieldbreaker:Acute Hearing,Coolheaded,Orientation,Strike Mighty Blow,Strike to Injure,Strike to Stun
+Smuggler:Dealmaker,Streetwise
+Soldier:Disarm,Quick Draw,Sharpshooter,Strike Mighty Blow,Specialist Weapon Group (Various),Strike to Injure,Rapid Reload,Strike to Stun,Mighty Shot
+Squire:Etiquette,Specialist Weapon Group (Various),Strike Mighty Blow
+Student:Etiquette,Linguistics,Savvy,Suave,Seasoned Traveller,Super Numerate
+Thief:Alley Cat,Streetwise,Super Numerate,Trapfinder
+Thug:Coolheaded,Lightning Reflexes,Disarm,Resistance to Poison,Quick Draw,Strike to Injure,Wrestling,Strike to Stun
+Toll Keeper:Lightning Reflexes,Marksman
+Tomb Robber:Luck,Sixth Sense,Trapfinder,Tunnel Rat
+Tradesman:Dealmaker,Savvy
+Troll Slayer:Disarm,Quick Draw,Hardy,Lightning Reflexes,Very Resilient,Specialist Weapon Group (Various),Street Fighting,Strike Mighty Blow 
+Vagabond:Fleet Footed,Rover,Marksman,Orientation,Seasoned Traveller
+Valet:Coolheaded,Suave,Dealmaker,Seasoned Traveller,Etiquette
+Watchman:Coolheaded,Savvy,Disarm,Street Fighting,Strike Mighty Blow,Strike to Stun
+Woodsman:Fleet Footed,Very Resilient,Rover,Specialist Weapon Group (Various)
+Zealot:Coolheaded,Very Strong,Hardy,Suave,Public Speaking,Specialist Weapon Group (Various)

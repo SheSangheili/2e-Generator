@@ -1,0 +1,60 @@
+Agitator: Academic Knowledge (History) or Gossip, Academic Knowledge (Law) or Common Knowledge (the Empire), Concealment, Charm, Perception, Read/Write, Speak Language (Breton or Tilean), Speak Language (Reikspiel)
+Apprentice Wizard: Academic Knowledge (Magic), Channelling, Magical Sense, Perception, Read/Write, Search, Speak Arcane Language (Magick), Speak Language (Classical)
+Bailiff: Academic Knowledge (Law), Animal Care or Gossip, Charm, Command or Navigation, Intimidate or Common Knowledge (the Empire), Perception, Read/Write, Ride
+Barber-Surgeon: Charm, Drive or Swim, Haggle, Heal, Perception, Read/Write, Speak Language (Breton, Reikspiel, or Tilean), Trade (Apothecary)
+Boatman: Common Knowledge (The Empire or Kislev), Consume Alcohol or Gossip, Navigation, Outdoor Survival, Perception, Row, Sail, Secret Language (Ranger) or Speak Language (Kislevian), Swim
+Bodyguard: Dodge Blow, Heal, Intimidate, Perception
+Bone Picker: Animal Care, Charm or Gossip, Drive, Common Knowledge (the Empire), Evaluate, Haggle, Perception, Search
+Bounty Hunter: Follow Trail, Intimidate, Outdoor Survival, Perception, Search, Shadowing, Silent Move
+Burgher: Common Knowledge (the Empire) or Consume Alcohol, Drive, Evaluate, Gossip or Read/Write, Haggle, Perception, Search, Speak Language (Breton, Kislevian, or Tilean), Speak Language (Reikspiel)
+Camp Follower: Animal Care or Drive, Charm or Evaluate, Gossip, Haggle, Perception, Search, Any one of: Trade (Armourer, Bowyer, Cartographer, Cook, Gunsmith, Herbalist, Merchant, Smith, Tailor, or Weaponsmith), Speak Language (Breton, Kislevian, or Tilean), Sleight of Hand
+Charcoal-Burner: Common Knowledge (the Empire) or Concealment, Drive or Gossip, Haggle, Outdoor Survival, Perception, Scale Sheer Surface, Search, Secret Signs (Ranger)
+Coachman: Animal Care, Drive, Gossip or Haggle, Heal or Ride, Navigation, Perception, Secret Signs (Ranger), Speak Language (Breton, Kislevian, or Tilean)
+Entertainer: Care or Swim, Charm, Common Knowledge (the Empire), Evaluate or Gossip, Perception, Performer (any two), Speak Language (Reikspiel), Any one of: Animal Training, Blather, Charm Animal, Hypnotism, Ride, Scale Sheer Surface, Sleight of Hand, Ventriloquism
+Envoy: Charm, Common Knowledge (the Empire or the Wasteland), Evaluate, Gossip, Haggle, Perception, Read/Write, Secret Language (Guild Tongue), Swim, Trade (Merchant)
+Estalian Diestro: Academic Knowledge (Science), Common Knowledge (Estalia), Dodge Blow, Read/Write, Speak Language (Estalian)
+Ferryman: Charm, Common Knowledge (the Empire), Evaluate or Secret Language (Ranger Tongue), Gossip or Intimidate, Haggle, Perception, Row, Swim
+Fieldwarden: Academic Knowledge (Necromancy) or Common Knowledge (the Empire), Concealment, Follow Trail, Outdoor Survival, Perception, Search, Silent Move
+Fisherman:  Common Knowledge (the Empire or the Wasteland), Consume Alcohol or Haggle, Navigation or Trade (Merchant), Outdoor Survival, Perception, Row, Sail, Speak Language (Reikspiel or Norse), Swim
+Grave Robber: Drive, Gossip or Haggle, Perception, Scale Sheer Surface, Search, Secret Signs (Thief), Silent Move
+Hedge Wizard: Animal Care or Haggle, Charm or Intimidate, Channelling, Charm Animal or Trade (Apothecary), Heal or Hypnotism, Magical Sense, Perception, Search
+Hunter: Concealment, Follow Trail, Outdoor Survival, Perception, Search or Swim, Secret Signs (Ranger), Silent Move or Set Trap
+Initiate: Academic Knowledge (Astronomy or History), Academic Knowledge (Theology), Charm, Heal, Perception, Read/Write, Speak Language (Classical), Speak Language (Reikspiel)
+Jailer: Command, Consume Alcohol, Dodge Blow, Heal or Sleight of Hand, Intimidate, Perception, Search
+Kislevite Kossar: Common Knowledge (Kislev), Consume Alcohol, Dodge Blow, Gamble or Gossip, Outdoor Survival, Perception, Search, Speak Language (Kislevian)
+Kithband Warrior: Concealment, Dodge Blow, Follow Trail, Heal or Search, Outdoor Survival, Perception, Scale Sheer Surface, Silent Move
+Marine: Common Knowledge (the Wasteland) or Gamble, Consume Alcohol, Dodge Blow, Gossip or Secret Language (Battle Tongue), Intimidate, Row, Swim
+Mercenary: Animal Care or Gamble, Common Knowledge (Bretonnia, Kislev, or Tilea), Dodge Blow, Drive or Ride, Gossip or Haggle, Perception or Search, Secret Language (Battle Tongue), Speak Language (Tilean) or Swim
+Messenger: Animal Care, Common Knowledge (the Empire or the Wasteland) or Gossip, Navigation, Outdoor Survival, Secret Signs (Scout), Perception, Ride, Speak Language (Reikspiel), Swim
+Militiaman: Animal Care, Dodge Blow, Drive or Swim, Gamble or Gossip, Outdoor Survival, Perception, Search, Trade (any one)
+Miner: Animal Care, Concealment or Drive, Evaluate or Outdoor Survival, Navigation, Perception, Scale Sheer Surface, Trade (Miner or Prospector)
+Noble: Blather or Command, Common Knowledge (the Empire), Consume Alcohol or Performer (Musician), Charm, Gamble or Gossip, Read/Write, Ride, Speak Language (Reikspiel)
+Norse Berserker: Common Knowledge (Norsca), Consume Alcohol, Intimidate, Performer (Storyteller), Speak Language (Norse), Swim
+Outlaw: Animal Care or Common Knowledge (the Empire), Concealment, Dodge Blow, Drive or Ride, Gossip or Secret Signs (Thief), Perception, Scale Sheer Surface, Set Trap or Swim, Silent Move
+Outrider: Animal Care, Follow Trail, Navigation, Outdoor Survival, Perception, Ride, Search, Silent Move
+Peasant: Animal Care or Charm, Animal Training or Swim, Charm Animal or Trade (Cook), Concealment, Drive or Trade (Bowyer), Gamble or Performer (Dancer or Singer), Outdoor Survival or Trade (Farmer), Row or Set Trap, Scale Sheer Surface or Silent Move
+Pit Fighter: Dodge Blow, Intimidate
+Protagonist: Dodge Blow, Gossip or Haggle, Intimidate, Ride
+Rat Catcher: Animal Care, Animal Trainer, Concealment, Perception, Search, Set Trap, Silent Move
+Roadwarden: Animal Care, Common Knowledge (the Empire) or Gossip, Drive, Follow Trail or Secret Signs (Scout), Navigation, Outdoor Survival, Perception, Ride, Search
+Rogue: Blather, Charm, Evaluate, Gamble or Secret Signs (Thief), Gossip or Haggle, Perception, Performer (Actor or Storyteller), Search or Secret Language (Thieves’ Tongue), Speak Language (Reikspiel)
+Runebearer: Dodge Blow, Navigation, Outdoor Survival, Secret Signs (Scout), Perception, Swim
+Scribe: Academic Knowledge (any one), Common Knowledge (the Empire) or Gossip, Perception, Read/Write, Secret Language (Guild Tongue), Speak Language (Breton), Speak Language (Classical), Speak Language (Reikspiel or Tilean), Trade (Calligrapher)
+Seaman: Common Knowledge (Bretonnia, Norsca, Tilea or the Wasteland), Consume Alcohol or Perception, Dodge Blow, Row, Sail, Scale Sheer Surface, Speak Language (Breton, Norse or Tilean), Swim
+Servant: Animal Care or Trade (Cook), Blather, Dodge Blow, Drive or Search, Evaluate or Haggle, Gossip, Perception, Read/Write or Sleight of Hand
+Shieldbreaker: Dodge Blow, Navigation, Perception, Scale Sheer Surface, Shadowing
+Smuggler: Drive, Evaluate, Gossip or Secret Language (Thieves’ Tongue), Haggle, Perception, Row, Search, Silent Move, Speak Language (Breton or Kislevian) or Secret Signs (Thief), Swim
+Soldier: Animal Care or Heal, Common Knowledge (the Empire) or Perception, Dodge Blow, Drive or Ride, Gamble or Gossip, Intimidate
+Squire: Academic Knowledge (Genealogy/Heraldry) or Common Knowledge (Bretonnia), Animal Care, Animal Training, Charm or Gossip, Dodge Blow, Ride, Speak Language (Breton or Reikspiel)
+Student: Academic Knowledge (any one), Academic Knowledge (any one) or Gossip, Charm or Consume Alcohol, Heal or Search, Perception, Read/Write, Speak Language (Classical), Speak Language (Reikspiel)
+Thief: Charm or Scale Sheer Surface, Concealment, Evaluate or Disguise, Gamble or Pick Lock, Perception, Read/Write or Sleight of Hand, Search, Secret Language (Thieves’ Tongue) or Secret Signs (Thief), Silent Move
+Thug: Consume Alcohol, Dodge Blow, Gamble, Intimidate, Secret Language (Thieves’ Tongue)
+Toll Keeper: Dodge Blow, Evaluate, Gossip or Haggle, Perception, Read/Write, Search, Speak Language (Breton, Kislevian, or Tilean)
+Tomb Robber: Common Knowledge (the Empire) or Secret Signs (Thief), Concealment or Outdoor Survival, Evaluate, Perception, Pick Lock or Silent Move, Read/Write, Scale Sheer Surface, Search, Speak Language (Classical, Khazalid or Eltharin)
+Tradesman: Animal Care or Gossip, Drive, Haggle, Evaluate, Perception, Read/Write, Secret Language (Guild Tongue), Trade (any two)
+Troll Slayer: Consume Alcohol, Dodge Blow, Intimidate
+Vagabond: Common Knowledge (Bretonnia, Estalia, Kislev, or Tilea), Gossip or Secret Language (Ranger Tongue or Thieves’ Tongue), Haggle or Swim, Heal or Perception, Navigation, Outdoor Survival, Performer (Dancer, Singer, or Storyteller) or Secret Signs (Ranger or Thief), Silent Move
+Valet: Academic Knowledge (Genealogy/Heraldry), Blather, Evaluate, Gossip or Speak Language (Breton or Reikspiel), Haggle, Perception, Read/Write, Search
+Watchman: Academic Knowledge (Law), Dodge Blow, Follow Trail, Gossip, Intimidate, Perception, Search
+Woodsman: Concealment, Follow Trail or Set Trap, Perception, Scale Sheer Surface, Secret Language (Ranger Tongue), Secret Signs (Ranger), Silent Move
+Zealot: Academic Knowledge (Theology), Charm, Common Knowledge (the Empire), Intimidate, Read/Write
