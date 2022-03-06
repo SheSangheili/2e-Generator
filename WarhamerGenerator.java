@@ -2285,6 +2285,10 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_CareerListValueChanged
 
+    private void WeightDisplayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WeightDisplayActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_WeightDisplayActionPerformed
+
     /**
      * @param args the command line arguments
      * @throws java.io.FileNotFoundException
