@@ -621,11 +621,6 @@ public class WarhamerGenerator extends javax.swing.JFrame {
 
         WeightDisplay.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         WeightDisplay.setText("jTextField8");
-        WeightDisplay.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                WeightDisplayActionPerformed(evt);
-            }
-        });
 
         jLabel1.setText("Marks");
 
@@ -776,6 +771,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         RacialDisplay.setLineWrap(true);
         RacialDisplay.setRows(5);
         RacialDisplay.setWrapStyleWord(true);
+        RacialDisplay.setAutoscrolls(false);
         jScrollPane3.setViewportView(RacialDisplay);
 
         CareerList.setModel(new javax.swing.AbstractListModel() {
@@ -797,6 +793,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         Fluff.setLineWrap(true);
         Fluff.setRows(5);
         Fluff.setWrapStyleWord(true);
+        Fluff.setAutoscrolls(false);
         jScrollPane5.setViewportView(Fluff);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -842,6 +839,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         Skills.setRows(5);
         Skills.setToolTipText("");
         Skills.setWrapStyleWord(true);
+        Skills.setAutoscrolls(false);
         jScrollPane8.setViewportView(Skills);
 
         jLabel23.setText("Skills");
@@ -852,14 +850,18 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         Talent.setLineWrap(true);
         Talent.setRows(5);
         Talent.setWrapStyleWord(true);
+        Talent.setAutoscrolls(false);
         jScrollPane9.setViewportView(Talent);
 
         jLabel25.setText("Trappings");
+
+        Trappings.setRowHeaderView(null);
 
         Trap.setColumns(20);
         Trap.setLineWrap(true);
         Trap.setRows(5);
         Trap.setWrapStyleWord(true);
+        Trap.setAutoscrolls(false);
         Trappings.setViewportView(Trap);
 
         jLabel26.setText("Career Choices");
@@ -868,6 +870,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         EntExt.setLineWrap(true);
         EntExt.setRows(5);
         EntExt.setWrapStyleWord(true);
+        EntExt.setAutoscrolls(false);
         jScrollPane10.setViewportView(EntExt);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -897,9 +900,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                                             .addComponent(jScrollPane2)
                                             .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(Height)
-                                                        .addGap(18, 18, 18))
+                                                    .addComponent(Height, javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                                         .addComponent(Weight)
                                                         .addGap(16, 16, 16)))
@@ -972,34 +973,39 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                             .addComponent(StrRoll, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(138, 138, 138)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(86, 86, 86)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(86, 86, 86)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel23)
+                                .addGap(204, 204, 204))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel22)
+                                .addGap(188, 188, 188))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel24)
+                                .addGap(199, 199, 199))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(Trappings, javax.swing.GroupLayout.DEFAULT_SIZE, 356, Short.MAX_VALUE)
+                                        .addComponent(jScrollPane9)
+                                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                        .addComponent(jScrollPane5)
+                                        .addComponent(jScrollPane7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                        .addComponent(jScrollPane8)))
+                                .addGap(48, 48, 48))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel23)
-                        .addGap(204, 204, 204))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel22)
-                        .addGap(188, 188, 188))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel24)
-                        .addGap(199, 199, 199))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel25)
-                        .addGap(196, 196, 196))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel26)
-                        .addGap(176, 176, 176))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(Trappings, javax.swing.GroupLayout.DEFAULT_SIZE, 356, Short.MAX_VALUE)
-                                .addComponent(jScrollPane9)
-                                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                .addComponent(jScrollPane5)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                .addComponent(jScrollPane8)))
-                        .addGap(48, 48, 48))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel25)
+                                .addGap(196, 196, 196))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel26)
+                                .addGap(178, 178, 178))))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1139,15 +1145,15 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                                 .addComponent(jLabel24)
                                 .addGap(18, 18, 18)
                                 .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel25)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Trappings, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Trappings, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel26)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(23, 23, 23))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jScrollPane10)))))
+                .addGap(19, 19, 19))
         );
 
         pack();
@@ -1169,8 +1175,8 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         int FPrand = rand.nextInt(10)+1;
         int birthrand1 = rand.nextInt(10)+1;
         int birthrand2 = rand.nextInt(10)+1;
-        int birthrand3 = rand.nextInt(100)+1;
-        
+        int birthrand3;
+        birthrand3 = rand.nextInt(100)+1;
         
         // Could probably make this a function
         switch (Marksrand){// <editor-fold>
@@ -1369,6 +1375,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         switch (Raceindex){
             case 0: {
                 //human
+                // <editor-fold>
                 if(Genderindex == 0){
                     HeightDisplay.setText("5'"+(4+Heightrand)+"");
                     // figure out how to roll over the height
@@ -1682,29 +1689,985 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 IPDisplay.setText("0");
                 RacialDisplay.setText("Skills: Common Knowledge (the Empire),"
                         + " Gossip, Speak Language (Reikspiel)"
-                + '\n' + "Talents: 2 random talents" +'\n');
+                + '\n'+'\n' + "Talents: 2 random talents" +'\n');
                 RacialDisplay.append(getTalents(Raceindex));
                 CareerList.setListData(humcareer);
                 // in v2 add career compendium careers
                 break;
+                //</editor-fold>
             }
             case 1: {
                 //elf
+                //<editor-fold>
+                if(Genderindex == 0){
+                    HeightDisplay.setText("5'"+(6+Heightrand)+"");
+                    // figure out how to roll over the height
+                }
+                else{
+                    HeightDisplay.setText("5'"+(4+Heightrand)+"");
+                }
+                switch (Hairrand){ // <editor-fold>
+                    case 1:{
+                        HairDisplay.setText("Silver");
+                        break;
+                    }
+                    case 2:{
+                        HairDisplay.setText("Ash Blond");
+                        break;
+                    }
+                    case 3:{
+                        HairDisplay.setText("Corn");
+                        break;
+                    }
+                    case 4:{
+                        HairDisplay.setText("Yellow");
+                        break;
+                    }
+                    case 5:{
+                        HairDisplay.setText("Copper");
+                        break;
+                    }
+                    case 6: case 7:{
+                        HairDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 8:{
+                        HairDisplay.setText("Brown");
+                        break;
+                    }
+                    case 9:{
+                        HairDisplay.setText("Dark Brown");
+                        break;
+                    }
+                    case 10:{
+                        HairDisplay.setText("Black");
+                        break;
+                    }
+                }
+                // </editor-fold>
+                // change to switch case
+                if(Weightrand == 1){// <editor-fold>
+                    WeightDisplay.setText("80");
+                }
+                else if(Weightrand == 2 || Weightrand == 3){
+                    WeightDisplay.setText("85");
+                }
+                else if(Weightrand == 4 || Weightrand == 5){
+                    WeightDisplay.setText("90");
+                }
+                else if(Weightrand >= 6 && Weightrand <= 8){
+                    WeightDisplay.setText("95");
+                }
+                else if(Weightrand >=9 && Weightrand <= 12){
+                    WeightDisplay.setText("100");
+                }
+                else if(Weightrand >= 13 && Weightrand <= 17){
+                    WeightDisplay.setText("105");
+                }
+                else if(Weightrand >= 18 && Weightrand <= 22){
+                    WeightDisplay.setText("110");
+                }
+                else if(Weightrand >= 23 && Weightrand <= 29){
+                    WeightDisplay.setText("115");
+                }
+                else if(Weightrand >= 30 && Weightrand <= 37){
+                    WeightDisplay.setText("120");
+                }
+                else if(Weightrand >= 38 && Weightrand <= 49){
+                    WeightDisplay.setText("125");
+                }
+                else if(Weightrand >= 50 && Weightrand <= 64){
+                    WeightDisplay.setText("130");
+                }
+                else if(Weightrand >= 65 && Weightrand <= 71){
+                    WeightDisplay.setText("135");
+                }
+                else if(Weightrand >= 72 && Weightrand <= 78){
+                    WeightDisplay.setText("140");
+                }
+                else if(Weightrand >= 79 && Weightrand <= 83){
+                    WeightDisplay.setText("145");
+                }
+                else if(Weightrand >= 84 && Weightrand <= 88){
+                    WeightDisplay.setText("150");
+                }
+                else if(Weightrand >= 89 && Weightrand <= 92){
+                    WeightDisplay.setText("155");
+                }
+                else if(Weightrand >= 93 && Weightrand <= 95){
+                    WeightDisplay.setText("160");
+                }
+                else if(Weightrand == 96 || Weightrand == 97){
+                    WeightDisplay.setText("165");
+                }
+                else if(Weightrand == 98 && Weightrand == 99){
+                    WeightDisplay.setText("170");
+                }
+                else {
+                    WeightDisplay.setText("175");
+                }// </editor-fold>
+                switch (Eyerand){// <editor-fold>
+                    case 1:{
+                        EyeDisplay.setText("Grey Blue");
+                        break;
+                    }
+                    case 2:{
+                        EyeDisplay.setText("Blue");
+                        break;
+                    }
+                    case 3:{
+                        EyeDisplay.setText("Green");
+                        break;
+                    }
+                    case 4:{
+                        EyeDisplay.setText("Copper");
+                        break;
+                    }
+                    case 5:{
+                        EyeDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 6:{
+                        EyeDisplay.setText("Brown");
+                        break;
+                    }
+                    case 7:{
+                        EyeDisplay.setText("Dark Brown");
+                        break;
+                    }
+                    case 8:{
+                        EyeDisplay.setText("Silver");
+                        break;
+                    }
+                    case 9:{
+                        EyeDisplay.setText("Purple");
+                        break;
+                    }
+                    case 10:{
+                        EyeDisplay.setText("Black");
+                        break;
+                    }
+                }// </editor-fold>
+                switch (Sibsrand) {
+                    case 1: {
+                        SiblingsDisplay.setText("0");
+                        break;
+                    }
+                    case 2: case 3: {
+                        SiblingsDisplay.setText("1");
+                        break;
+                    }
+                    case 4: case 5: {
+                        SiblingsDisplay.setText("1");
+                        break;
+                    }
+                    case 6: case 7: {
+                        SiblingsDisplay.setText("2");
+                        break;
+                    }
+                    case 8: case 9: {
+                        SiblingsDisplay.setText("2");
+                        break;
+                    }
+                    case 10: {
+                        SiblingsDisplay.setText("3");
+                        break;
+                    }
+                }
+                switch (Agerand){// <editor-fold>
+                    case 1: case 2: case 3: case 4: case 5:{
+                        AgeDisplay.setText("30");
+                        break;
+                    }
+                    case 6: case 7: case 8: case 9: case 10:{
+                        AgeDisplay.setText("35");
+                        break;
+                    }
+                    case 11: case 12: case 13: case 14: case 15:{
+                        AgeDisplay.setText("40");
+                        break;
+                    }
+                    case 16: case 17: case 18: case 19: case 20: {
+                        AgeDisplay.setText("45");
+                        break;
+                    }
+                    case 21: case 22: case 23: case 24: case 25: {
+                        AgeDisplay.setText("50");
+                        break;
+                    }
+                    case 26: case 27: case 28: case 29: case 30: {
+                        AgeDisplay.setText("55");
+                        break;
+                    }
+                    case 31: case 32: case 33: case 34: case 35: {
+                        AgeDisplay.setText("60");
+                        break;
+                    }
+                    case 36: case 37: case 38: case 39: case 40: {
+                        AgeDisplay.setText("65");
+                        break;
+                    }
+                    case 41: case 42: case 43: case 44: case 45: {
+                        AgeDisplay.setText("70");
+                        break;
+                    }
+                    case 46: case 47: case 48: case 49: case 50: {
+                        AgeDisplay.setText("75");
+                        break;
+                    }
+                    case 51: case 52: case 53: case 54: case 55: {
+                        AgeDisplay.setText("80");
+                        break;
+                    }
+                    case 56: case 57: case 58: case 59: case 60: {
+                        AgeDisplay.setText("85");
+                        break;
+                    }
+                    case 61: case 62: case 63: case 64: case 65: {
+                        AgeDisplay.setText("90");
+                        break;
+                    }
+                    case 66: case 67: case 68: case 69: case 70: {
+                        AgeDisplay.setText("95");
+                        break;
+                    }
+                    case 71: case 72: case 73: case 74: case 75: {
+                        AgeDisplay.setText("100");
+                        break;
+                    }
+                    case 76: case 77: case 78: case 79: case 80: {
+                        AgeDisplay.setText("105");
+                        break;
+                    }
+                    case 81: case 82: case 83: case 84: case 85: {
+                        AgeDisplay.setText("110");
+                        break;
+                    }
+                    case 86: case 87: case 88: case 89: case 90: {
+                        AgeDisplay.setText("115");
+                        break;
+                    }
+                    case 91: case 92: case 93: case 94: case 95: {
+                        AgeDisplay.setText("120");
+                        break;
+                    }
+                    case 96: case 97: case 98: case 99: case 100: {
+                        AgeDisplay.setText("125");
+                        break;
+                    }
+                }// </editor-fold>
                 
+                switch(FPrand){
+                    case 1: case 2: case 3: case 4:{
+                        FPRoll.setText("1");
+                        break;
+                    }
+                    case 5: case 6: case 7: case 8: case 9: case 10:{
+                        FPRoll.setText("2");
+                        break;
+                    }
+                }
+                
+                switch(HPrand){
+                    case 1: case 2: case 3:{
+                        HPRoll.setText("9");
+                        break;
+                    }
+                    case 4: case 5: case 6:{
+                        HPRoll.setText("10");
+                        break;
+                    }
+                    case 7: case 8: case 9:{
+                        HPRoll.setText("11");
+                        break;
+                    }
+                    case 10:{
+                        HPRoll.setText("12");
+                        break;
+                    }
+                }
+                
+                if(birthrand3 >= 1 && birthrand3 <= 20){
+                    BirthDisplay.setText("City of Altdorf");
+                }
+                else if (birthrand3 >= 21 && birthrand3 <= 40){
+                    BirthDisplay.setText("City of Marienburg");
+                }
+                else if (birthrand3 >= 41 && birthrand3 <= 70){
+                    BirthDisplay.setText("Laurelorn Forest");
+                }
+                else if (birthrand3 >= 71 && birthrand3 <= 85){
+                    BirthDisplay.setText("The Great Forest");
+                }
+                else {
+                    BirthDisplay.setText("Reikwald Forest");
+                }
+                WSRoll.setText((20 + getRolls()) + "");
+                WSRoll.setToolTipText(blah);
+                BSRoll.setText((30 + getRolls()) + "");
+                BSRoll.setToolTipText(blah);
+                StrRoll.setText((20 + getRolls()) + "");
+                StrRoll.setToolTipText(blah);
+                TRoll.setText((20 + getRolls()) + "");
+                TRoll.setToolTipText(blah);
+                ARoll.setText((30 + getRolls()) + "");
+                ARoll.setToolTipText(blah);
+                IntRoll.setText((20 + getRolls()) + "");
+                IntRoll.setToolTipText(blah);
+                WPRoll.setText((20 + getRolls()) + "");
+                WPRoll.setToolTipText(blah);
+                FelRoll.setText((20 + getRolls()) + "");
+                FelRoll.setToolTipText(blah);
+                AttDisplay.setText("1");
+                SBDisplay.setText(StrRoll.getText().charAt(0) +"");
+                TBDisplay.setText(TRoll.getText().charAt(0) +"");
+                MoveDisplay.setText("5");
+                MagDisplay.setText("0");
+                IPDisplay.setText("0");
+                RacialDisplay.setText("Skills: Common Knowledge (Elves),"
+                        + " Speak Language (Eltharin), Speak Language (Reikspiel)"
+                + '\n'+'\n' + "Talents: Aethyric Attunement or Specialist Weapon Group (Longbow), "
+                        + "Coolheaded or Savvy, Execellent Vision, Night Vision" +'\n');
                 CareerList.setListData(elfcareer);
                 break;
+                //</editor-fold>
             }
             case 2: {
                 //dwarf
+                //<editor-fold>
+                if(Genderindex == 0){
+                    HeightDisplay.setText("4'"+(4+Heightrand)+"");
+                    // figure out how to roll over the height
+                }
+                else{
+                    HeightDisplay.setText("4'"+(2+Heightrand)+"");
+                }
+                switch (Hairrand){ // <editor-fold>
+                    case 1:{
+                        HairDisplay.setText("Ash Blond");
+                        break;
+                    }
+                    case 2:{
+                        HairDisplay.setText("Yellow");
+                        break;
+                    }
+                    case 3:{
+                        HairDisplay.setText("Red");
+                        break;
+                    }
+                    case 4:{
+                        HairDisplay.setText("Copper");
+                        break;
+                    }
+                    case 5:{
+                        HairDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 6: case 7:{
+                        HairDisplay.setText("Brown");
+                        break;
+                    }
+                    case 8:{
+                        HairDisplay.setText("Dark Brown");
+                        break;
+                    }
+                    case 9:{
+                        HairDisplay.setText("Blue Black");
+                        break;
+                    }
+                    case 10:{
+                        HairDisplay.setText("Black");
+                        break;
+                    }
+                }
+                // </editor-fold>
+                // change to switch case
+                if(Weightrand == 1){// <editor-fold>
+                    WeightDisplay.setText("90");
+                }
+                else if(Weightrand == 2 || Weightrand == 3){
+                    WeightDisplay.setText("95");
+                }
+                else if(Weightrand == 4 || Weightrand == 5){
+                    WeightDisplay.setText("100");
+                }
+                else if(Weightrand >= 6 && Weightrand <= 8){
+                    WeightDisplay.setText("105");
+                }
+                else if(Weightrand >=9 && Weightrand <= 12){
+                    WeightDisplay.setText("110");
+                }
+                else if(Weightrand >= 13 && Weightrand <= 17){
+                    WeightDisplay.setText("115");
+                }
+                else if(Weightrand >= 18 && Weightrand <= 22){
+                    WeightDisplay.setText("120");
+                }
+                else if(Weightrand >= 23 && Weightrand <= 29){
+                    WeightDisplay.setText("125");
+                }
+                else if(Weightrand >= 30 && Weightrand <= 37){
+                    WeightDisplay.setText("130");
+                }
+                else if(Weightrand >= 38 && Weightrand <= 49){
+                    WeightDisplay.setText("135");
+                }
+                else if(Weightrand >= 50 && Weightrand <= 64){
+                    WeightDisplay.setText("140");
+                }
+                else if(Weightrand >= 65 && Weightrand <= 71){
+                    WeightDisplay.setText("145");
+                }
+                else if(Weightrand >= 72 && Weightrand <= 78){
+                    WeightDisplay.setText("150");
+                }
+                else if(Weightrand >= 79 && Weightrand <= 83){
+                    WeightDisplay.setText("155");
+                }
+                else if(Weightrand >= 84 && Weightrand <= 88){
+                    WeightDisplay.setText("160");
+                }
+                else if(Weightrand >= 89 && Weightrand <= 92){
+                    WeightDisplay.setText("165");
+                }
+                else if(Weightrand >= 93 && Weightrand <= 95){
+                    WeightDisplay.setText("170");
+                }
+                else if(Weightrand == 96 || Weightrand == 97){
+                    WeightDisplay.setText("175");
+                }
+                else if(Weightrand == 98 && Weightrand == 99){
+                    WeightDisplay.setText("180");
+                }
+                else {
+                    WeightDisplay.setText("185");
+                }// </editor-fold>
+                switch (Eyerand){// <editor-fold>
+                    case 1:{
+                        EyeDisplay.setText("Pale Grey");
+                        break;
+                    }
+                    case 2:{
+                        EyeDisplay.setText("Blue");
+                        break;
+                    }
+                    case 3:{
+                        EyeDisplay.setText("Copper");
+                        break;
+                    }
+                    case 4: case 5:{
+                        EyeDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 6: case 7:{
+                        EyeDisplay.setText("Brown");
+                        break;
+                    }
+                    case 8: case 9:{
+                        EyeDisplay.setText("Dark Brown");
+                        break;
+                    }
+                    case 10:{
+                        EyeDisplay.setText("Purple");
+                        break;
+                    }
+                }// </editor-fold>
+                switch (Sibsrand) {
+                    case 1: case 2: case 3: {
+                        SiblingsDisplay.setText("0");
+                        break;
+                    }
+                    case 4: case 5: case 6: case 7: {
+                        SiblingsDisplay.setText("1");
+                        break;
+                    }
+                    case 8: case 9: {
+                        SiblingsDisplay.setText("2");
+                        break;
+                    }
+                    case 10: {
+                        SiblingsDisplay.setText("3");
+                        break;
+                    }
+                }
+                switch (Agerand){// <editor-fold>
+                    case 1: case 2: case 3: case 4: case 5:{
+                        AgeDisplay.setText("20");
+                        break;
+                    }
+                    case 6: case 7: case 8: case 9: case 10:{
+                        AgeDisplay.setText("25");
+                        break;
+                    }
+                    case 11: case 12: case 13: case 14: case 15:{
+                        AgeDisplay.setText("30");
+                        break;
+                    }
+                    case 16: case 17: case 18: case 19: case 20: {
+                        AgeDisplay.setText("35");
+                        break;
+                    }
+                    case 21: case 22: case 23: case 24: case 25: {
+                        AgeDisplay.setText("40");
+                        break;
+                    }
+                    case 26: case 27: case 28: case 29: case 30: {
+                        AgeDisplay.setText("45");
+                        break;
+                    }
+                    case 31: case 32: case 33: case 34: case 35: {
+                        AgeDisplay.setText("50");
+                        break;
+                    }
+                    case 36: case 37: case 38: case 39: case 40: {
+                        AgeDisplay.setText("55");
+                        break;
+                    }
+                    case 41: case 42: case 43: case 44: case 45: {
+                        AgeDisplay.setText("60");
+                        break;
+                    }
+                    case 46: case 47: case 48: case 49: case 50: {
+                        AgeDisplay.setText("65");
+                        break;
+                    }
+                    case 51: case 52: case 53: case 54: case 55: {
+                        AgeDisplay.setText("70");
+                        break;
+                    }
+                    case 56: case 57: case 58: case 59: case 60: {
+                        AgeDisplay.setText("75");
+                        break;
+                    }
+                    case 61: case 62: case 63: case 64: case 65: {
+                        AgeDisplay.setText("80");
+                        break;
+                    }
+                    case 66: case 67: case 68: case 69: case 70: {
+                        AgeDisplay.setText("85");
+                        break;
+                    }
+                    case 71: case 72: case 73: case 74: case 75: {
+                        AgeDisplay.setText("90");
+                        break;
+                    }
+                    case 76: case 77: case 78: case 79: case 80: {
+                        AgeDisplay.setText("95");
+                        break;
+                    }
+                    case 81: case 82: case 83: case 84: case 85: {
+                        AgeDisplay.setText("100");
+                        break;
+                    }
+                    case 86: case 87: case 88: case 89: case 90: {
+                        AgeDisplay.setText("105");
+                        break;
+                    }
+                    case 91: case 92: case 93: case 94: case 95: {
+                        AgeDisplay.setText("110");
+                        break;
+                    }
+                    case 96: case 97: case 98: case 99: case 100: {
+                        AgeDisplay.setText("115");
+                        break;
+                    }
+                }// </editor-fold>
                 
+                switch(FPrand){
+                    case 1: case 2: case 3: case 4:{
+                        FPRoll.setText("1");
+                        break;
+                    }
+                    case 5: case 6: case 7: {
+                        FPRoll.setText("2");
+                        break;
+                    }
+                    case 8: case 9: case 10:{
+                        FPRoll.setText("3");
+                        break;
+                    }
+                }
+                
+                switch(HPrand){
+                    case 1: case 2: case 3:{
+                        HPRoll.setText("11");
+                        break;
+                    }
+                    case 4: case 5: case 6:{
+                        HPRoll.setText("12");
+                        break;
+                    }
+                    case 7: case 8: case 9:{
+                        HPRoll.setText("13");
+                        break;
+                    }
+                    case 10:{
+                        HPRoll.setText("14");
+                        break;
+                    }
+                }
+                
+                if (birthrand3 >= 1 && birthrand3 <= 30){
+                    BirthDisplay.setText(getHuman(birthrand1, birthrand2));
+                }
+                else if (birthrand3 >= 31 && birthrand3 <= 40){
+                    BirthDisplay.setText("Karak Norn (Grey Mountains)");
+                }
+                else if (birthrand3 >= 41 && birthrand3 <= 50){
+                    BirthDisplay.setText("Karak Izor (the Vaults)");
+                }
+                else if (birthrand3 >= 51 && birthrand3 <= 60){
+                    BirthDisplay.setText("Karak Hirn (Black Mountains)");
+                }
+                else if (birthrand3 >= 61 && birthrand3 <= 70){
+                    BirthDisplay.setText("Karak Kadrin (World's Edge Mountains)");
+                }
+                else if (birthrand3 >= 71 && birthrand3 <= 80){
+                    BirthDisplay.setText("Karaz-A-Karak (World's Edge Mountains)");
+                }
+                else if (birthrand3 >= 81 && birthrand3 <= 90){
+                    BirthDisplay.setText("Zhufbar (World's Edge Mountains)");
+                }
+                else {
+                    BirthDisplay.setText("Barak Varr (the Black Gulf)");
+                }
+                WSRoll.setText((30 + getRolls()) + "");
+                WSRoll.setToolTipText(blah);
+                BSRoll.setText((20 + getRolls()) + "");
+                BSRoll.setToolTipText(blah);
+                StrRoll.setText((20 + getRolls()) + "");
+                StrRoll.setToolTipText(blah);
+                TRoll.setText((30 + getRolls()) + "");
+                TRoll.setToolTipText(blah);
+                ARoll.setText((10 + getRolls()) + "");
+                ARoll.setToolTipText(blah);
+                IntRoll.setText((20 + getRolls()) + "");
+                IntRoll.setToolTipText(blah);
+                WPRoll.setText((20 + getRolls()) + "");
+                WPRoll.setToolTipText(blah);
+                FelRoll.setText((10 + getRolls()) + "");
+                FelRoll.setToolTipText(blah);
+                AttDisplay.setText("1");
+                SBDisplay.setText(StrRoll.getText().charAt(0) +"");
+                TBDisplay.setText(TRoll.getText().charAt(0) +"");
+                MoveDisplay.setText("3");
+                MagDisplay.setText("0");
+                IPDisplay.setText("0");
+                RacialDisplay.setText("Skills: Common Knowledge (Dwarfs),"
+                        + " Speak Language (Khazzalid), Speak Language (Reikspiel), "
+                        + "Trade (Miner, Smith, or Stoneworker)"
+                + '\n'+'\n' + "Talents: Dwarfcraft, Grudge-born Fury, Night Vision, "
+                        + "Resistance to Magic, Stout-hearted, Sturdy" +'\n');
+                RacialDisplay.append(getTalents(Raceindex));
                 CareerList.setListData(dwarfcareer);
                 break;
+                //</editor-fold>
             }
             case 3: {
                 //halfling
+                //<editor-fold>
+                if(Genderindex == 0){
+                    HeightDisplay.setText("3'"+(4+Heightrand)+"");
+                    // figure out how to roll over the height
+                }
+                else{
+                    HeightDisplay.setText("3'"+(2+Heightrand)+"");
+                }
+                switch (Hairrand){ // <editor-fold>
+                    case 1:{
+                        HairDisplay.setText("Ash Blond");
+                        break;
+                    }
+                    case 2:{
+                        HairDisplay.setText("Corn");
+                        break;
+                    }
+                    case 3: case 4: {
+                        HairDisplay.setText("Yellow");
+                        break;
+                    }
+                    case 5:{
+                        HairDisplay.setText("Copper");
+                        break;
+                    }
+                    case 6:{
+                        HairDisplay.setText("Red");
+                        break;
+                    }
+                    case 7:{
+                        HairDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 8:{
+                        HairDisplay.setText("Brown");
+                        break;
+                    }
+                    case 9:{
+                        HairDisplay.setText("Dark Brown");
+                        break;
+                    }
+                    case 10:{
+                        HairDisplay.setText("Black");
+                        break;
+                    }
+                }
+                // </editor-fold>
+                // change to switch case
+                // <editor-fold>
+                if(Weightrand == 1 && Weightrand == 3){
+                    WeightDisplay.setText("75");
+                }
+                else if(Weightrand == 4 && Weightrand == 5){
+                    WeightDisplay.setText("80");
+                }
+                else if(Weightrand >= 6 && Weightrand <= 8){
+                    WeightDisplay.setText("80");
+                }
+                else if(Weightrand >=9 && Weightrand <= 12){
+                    WeightDisplay.setText("85");
+                }
+                else if(Weightrand >= 13 && Weightrand <= 17){
+                    WeightDisplay.setText("85");
+                }
+                else if(Weightrand >= 18 && Weightrand <= 22){
+                    WeightDisplay.setText("90");
+                }
+                else if(Weightrand >= 23 && Weightrand <= 29){
+                    WeightDisplay.setText("90");
+                }
+                else if(Weightrand >= 30 && Weightrand <= 37){
+                    WeightDisplay.setText("95");
+                }
+                else if(Weightrand >= 38 && Weightrand <= 49){
+                    WeightDisplay.setText("100");
+                }
+                else if(Weightrand >= 50 && Weightrand <= 64){
+                    WeightDisplay.setText("100");
+                }
+                else if(Weightrand >= 65 && Weightrand <= 71){
+                    WeightDisplay.setText("105");
+                }
+                else if(Weightrand >= 72 && Weightrand <= 78){
+                    WeightDisplay.setText("110");
+                }
+                else if(Weightrand >= 79 && Weightrand <= 83){
+                    WeightDisplay.setText("115");
+                }
+                else if(Weightrand >= 84 && Weightrand <= 88){
+                    WeightDisplay.setText("120");
+                }
+                else if(Weightrand >= 89 && Weightrand <= 92){
+                    WeightDisplay.setText("125");
+                }
+                else if(Weightrand >= 93 && Weightrand <= 95){
+                    WeightDisplay.setText("130");
+                }
+                else if(Weightrand == 96 || Weightrand == 97){
+                    WeightDisplay.setText("135");
+                }
+                else if(Weightrand == 98 && Weightrand == 99){
+                    WeightDisplay.setText("140");
+                }
+                else {
+                    WeightDisplay.setText("145");
+                }// </editor-fold>
+                switch (Eyerand){// <editor-fold>
+                    case 1:{
+                        EyeDisplay.setText("Blue");
+                        break;
+                    }
+                    case 2: case 3: {
+                        EyeDisplay.setText("Hazel");
+                        break;
+                    }
+                    case 4: case 5: {
+                        EyeDisplay.setText("Light Brown");
+                        break;
+                    }
+                    case 6: case 7:{
+                        EyeDisplay.setText("Brown");
+                        break;
+                    }
+                    case 8: case 9: case 10: {
+                        EyeDisplay.setText("Dark Brown");
+                        break;
+                    }
+                }// </editor-fold>
+                switch (Sibsrand) {
+                    case 1: {
+                        SiblingsDisplay.setText("1");
+                        break;
+                    }
+                    case 2: case 3: {
+                        SiblingsDisplay.setText("2");
+                        break;
+                    }
+                    case 4: case 5: {
+                        SiblingsDisplay.setText("3");
+                        break;
+                    }
+                    case 6: case 7: {
+                        SiblingsDisplay.setText("4");
+                        break;
+                    }
+                    case 8: case 9: {
+                        SiblingsDisplay.setText("5");
+                        break;
+                    }
+                    case 10: {
+                        SiblingsDisplay.setText("6");
+                        break;
+                    }
+                }
+                switch (Agerand){// <editor-fold>
+                    case 1: case 2: case 3: case 4: case 5:{
+                        AgeDisplay.setText("20");
+                        break;
+                    }
+                    case 6: case 7: case 8: case 9: case 10:{
+                        AgeDisplay.setText("22");
+                        break;
+                    }
+                    case 11: case 12: case 13: case 14: case 15:{
+                        AgeDisplay.setText("24");
+                        break;
+                    }
+                    case 16: case 17: case 18: case 19: case 20: {
+                        AgeDisplay.setText("26");
+                        break;
+                    }
+                    case 21: case 22: case 23: case 24: case 25: {
+                        AgeDisplay.setText("28");
+                        break;
+                    }
+                    case 26: case 27: case 28: case 29: case 30: {
+                        AgeDisplay.setText("30");
+                        break;
+                    }
+                    case 31: case 32: case 33: case 34: case 35: {
+                        AgeDisplay.setText("32");
+                        break;
+                    }
+                    case 36: case 37: case 38: case 39: case 40: {
+                        AgeDisplay.setText("34");
+                        break;
+                    }
+                    case 41: case 42: case 43: case 44: case 45: {
+                        AgeDisplay.setText("36");
+                        break;
+                    }
+                    case 46: case 47: case 48: case 49: case 50: {
+                        AgeDisplay.setText("38");
+                        break;
+                    }
+                    case 51: case 52: case 53: case 54: case 55: {
+                        AgeDisplay.setText("40");
+                        break;
+                    }
+                    case 56: case 57: case 58: case 59: case 60: {
+                        AgeDisplay.setText("42");
+                        break;
+                    }
+                    case 61: case 62: case 63: case 64: case 65: {
+                        AgeDisplay.setText("44");
+                        break;
+                    }
+                    case 66: case 67: case 68: case 69: case 70: {
+                        AgeDisplay.setText("46");
+                        break;
+                    }
+                    case 71: case 72: case 73: case 74: case 75: {
+                        AgeDisplay.setText("50");
+                        break;
+                    }
+                    case 76: case 77: case 78: case 79: case 80: {
+                        AgeDisplay.setText("52");
+                        break;
+                    }
+                    case 81: case 82: case 83: case 84: case 85: {
+                        AgeDisplay.setText("54");
+                        break;
+                    }
+                    case 86: case 87: case 88: case 89: case 90: {
+                        AgeDisplay.setText("56");
+                        break;
+                    }
+                    case 91: case 92: case 93: case 94: case 95: {
+                        AgeDisplay.setText("58");
+                        break;
+                    }
+                    case 96: case 97: case 98: case 99: case 100: {
+                        AgeDisplay.setText("60");
+                        break;
+                    }
+                }// </editor-fold>
                 
+                switch(FPrand){
+                    case 1: case 2: case 3: case 4: case 5: case 6: case 7: {
+                        FPRoll.setText("2");
+                        break;
+                    }
+                    case 8: case 9: case 10:{
+                        FPRoll.setText("3");
+                        break;
+                    }
+                }
+                
+                switch(HPrand){
+                    case 1: case 2: case 3:{
+                        HPRoll.setText("8");
+                        break;
+                    }
+                    case 4: case 5: case 6:{
+                        HPRoll.setText("9");
+                        break;
+                    }
+                    case 7: case 8: case 9:{
+                        HPRoll.setText("10");
+                        break;
+                    }
+                    case 10:{
+                        HPRoll.setText("11");
+                        break;
+                    }
+                }
+                if (birthrand3 >= 1 && birthrand3 <= 50){
+                    BirthDisplay.setText("The Moot");
+                }
+                else{
+                    BirthDisplay.setText(getHuman(birthrand1, birthrand2));
+                }
+                WSRoll.setText((10 + getRolls()) + "");
+                WSRoll.setToolTipText(blah);
+                BSRoll.setText((30 + getRolls()) + "");
+                BSRoll.setToolTipText(blah);
+                StrRoll.setText((10 + getRolls()) + "");
+                StrRoll.setToolTipText(blah);
+                TRoll.setText((10 + getRolls()) + "");
+                TRoll.setToolTipText(blah);
+                ARoll.setText((30 + getRolls()) + "");
+                ARoll.setToolTipText(blah);
+                IntRoll.setText((20 + getRolls()) + "");
+                IntRoll.setToolTipText(blah);
+                WPRoll.setText((20 + getRolls()) + "");
+                WPRoll.setToolTipText(blah);
+                FelRoll.setText((30 + getRolls()) + "");
+                FelRoll.setToolTipText(blah);
+                AttDisplay.setText("1");
+                SBDisplay.setText(StrRoll.getText().charAt(0) +"");
+                TBDisplay.setText(TRoll.getText().charAt(0) +"");
+                MoveDisplay.setText("4");
+                MagDisplay.setText("0");
+                IPDisplay.setText("0");
+                RacialDisplay.setText("Skills: Academic Knowledge (Genealogy/Heraldry),"
+                        + " Common Knowledge (Halflings), Gossip, Speak Language (Reikspiel), "
+                        + "Speak Language (Halfling), Trade (Cook or Farmer)"
+                + '\n'+'\n' + "Talents: Night Vision, Resistance to Chaos, "
+                        + "Specialist Weapon Group (Sling), 1 random talents" +'\n');
+                RacialDisplay.append(getTalents(Raceindex));
                 CareerList.setListData(halfcareer);
                 break;
+                //</editor-fold>
             }
         }
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -2284,10 +3247,6 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                     }
         }
     }//GEN-LAST:event_CareerListValueChanged
-
-    private void WeightDisplayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_WeightDisplayActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_WeightDisplayActionPerformed
 
     /**
      * @param args the command line arguments
