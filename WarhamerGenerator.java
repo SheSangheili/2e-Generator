@@ -96,6 +96,18 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         return hold;
     }
     
+    public String sepEntExt(String val){
+        String hold = "";
+        String [] parts = val.split(";");
+
+        
+        for(String x : parts){
+            hold += x + '\n';
+        }
+        
+        return hold;
+    }
+    
     /**
      * Species ArrayLists of base jobs they can have
      */
@@ -767,11 +779,13 @@ public class WarhamerGenerator extends javax.swing.JFrame {
 
         DoubleRoll.setText("Double Rule?");
 
+        RacialDisplay.setEditable(false);
         RacialDisplay.setColumns(20);
         RacialDisplay.setLineWrap(true);
         RacialDisplay.setRows(5);
         RacialDisplay.setWrapStyleWord(true);
         RacialDisplay.setAutoscrolls(false);
+        RacialDisplay.setFocusable(false);
         jScrollPane3.setViewportView(RacialDisplay);
 
         CareerList.setModel(new javax.swing.AbstractListModel() {
@@ -2358,7 +2372,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                         + "Trade (Miner, Smith, or Stoneworker)"
                 + '\n'+'\n' + "Talents: Dwarfcraft, Grudge-born Fury, Night Vision, "
                         + "Resistance to Magic, Stout-hearted, Sturdy" +'\n');
-                RacialDisplay.append(getTalents(Raceindex));
+                //RacialDisplay.append(getTalents(Raceindex));
                 CareerList.setListData(dwarfcareer);
                 break;
                 //</editor-fold>
@@ -2688,7 +2702,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 break;
             }
             case "Apprentice Wizard":{
@@ -2697,7 +2711,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 /*
                 jTable1.setValueAt("-", 0, 0);
@@ -2724,7 +2738,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2733,7 +2747,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2742,7 +2756,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2751,7 +2765,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2760,7 +2774,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2769,7 +2783,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2778,7 +2792,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2787,7 +2801,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2796,7 +2810,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2805,7 +2819,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2814,7 +2828,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2823,7 +2837,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2832,7 +2846,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2841,7 +2855,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2850,7 +2864,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2859,7 +2873,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2868,7 +2882,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2877,7 +2891,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2886,7 +2900,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2895,7 +2909,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2904,7 +2918,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2913,7 +2927,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2922,7 +2936,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2931,7 +2945,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2940,7 +2954,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2949,7 +2963,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2958,7 +2972,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2967,7 +2981,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2976,7 +2990,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2985,7 +2999,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -2994,7 +3008,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3003,7 +3017,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3012,7 +3026,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3021,7 +3035,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3030,7 +3044,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3039,7 +3053,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3048,7 +3062,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3057,7 +3071,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3066,7 +3080,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3075,7 +3089,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3084,7 +3098,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3093,7 +3107,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3102,7 +3116,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3111,7 +3125,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3120,7 +3134,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3129,7 +3143,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3138,7 +3152,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3147,7 +3161,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3156,7 +3170,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3165,7 +3179,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3174,7 +3188,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3183,7 +3197,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3192,7 +3206,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3201,7 +3215,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3210,7 +3224,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3219,7 +3233,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3228,7 +3242,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
@@ -3237,7 +3251,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 Skills.setText(skill.get(d));
                 Talent.setText(talent.get(d)+'\n'+'\n'+getDiscript(tallist.get(d)));
                 Trap.setText(trap.get(d));
-                EntExt.setText(entext.get(d));
+                EntExt.setText(sepEntExt(entext.get(d)));
                 tablePop(advance.get(d));
                 break;
             }
