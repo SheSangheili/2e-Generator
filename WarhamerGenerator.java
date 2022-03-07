@@ -826,7 +826,10 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        jTable1.setFocusable(false);
+        jTable1.setRequestFocusEnabled(false);
         jTable1.setRowHeight(30);
+        jTable1.setRowSelectionAllowed(false);
         jScrollPane6.setViewportView(jTable1);
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
@@ -845,6 +848,8 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        jTable2.setEnabled(false);
+        jTable2.setFocusable(false);
         jTable2.setRowHeight(30);
         jScrollPane7.setViewportView(jTable2);
 
