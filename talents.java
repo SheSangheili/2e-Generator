@@ -1,0 +1,72 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examples.folder;
+
+/**
+ *
+ * @author Baby_
+ */
+public class talents {
+    String [] x = {"Agitator: Coolheaded or Street Fighting, Flee!, Public Speaking",
+"Apprentice Wizard: Aethyric Attunement or Fast Hands, Petty Magic (Arcane), Savvy or Very Resilient",
+"Bailiff: Etiquette or Super Numerate, Public Speaking",
+"Barber-Surgeon: Resistance to Disease or Savvy, Suave or Very Resilient, Surgery",
+"Boatman: Orientation, Seasoned Traveller",
+"Bodyguard: Disarm or Quick Draw, Specialist Weapon Group (Parrying), Specialist Weapon Group (Throwing), Street Fighting, Strike to Stun, Very Strong or Very Resilient",
+"Bone Picker: Coolheaded or Streetwise, Hardy or Resistance to Disease",
+"Bounty Hunter: Marksman or Strike to Stun, Rover, Specialist Weapon Group (Entangling), Sharpshooter or Strike Mighty Blow",
+"Burgher: Dealmaker, Savvy or Suave",
+"Camp Follower: Dealmaker or Street Fighter, Flee!, Hardy or Suave, Resistance to Disease or Seasoned Traveller",
+"Charcoal-Burner: Flee!, Savvy or Very Strong",
+"Coachman: Quick Draw or Seasoned Traveller, Specialist Weapon Group (Gunpowder)",
+"Entertainer: Any two of: Contortionist, Lightning Reflexes, Mimic, Public Speaking, Quick Draw, Sharpshooter, Specialist Weapon Group (Throwing), Trick Riding, Very Strong, Wrestling",
+"Envoy: Dealmaker or Seasoned Traveller",
+"Estalian Diestro: Lightning Reflexes or Swashbuckler, Quick Draw or Strike to Injure, Specialist Weapon Group (Fencing), Strike Mighty Blow",
+"Ferryman: Marksman or Suave, Specialist Weapon Group (Gunpowder) or Street Fighting",
+"Fieldwarden: Fleet Footed or Savvy, Mighty Shot or Rapid Reload, Rover or Quick Draw",
+"Fisherman: Hardy or Savvy, Orientation or Street Fighting",
+"Grave Robber: Flee!, Resistance to Disease, Streetwise or Strongminded",
+"Hedge Wizard: Hedge Magic, Petty Magic (Hedge)",
+"Hunter: Hardy or Specialist Weapon Group (Longbow), Lightning Reflexes or Very Resilient, Marksman or Rover, Rapid Reload",
+"Initiate: Lightning Reflexes or Very Strong, Public Speaking, Suave or Warrior Born",
+"Jailer: Resistance to Disease, Resistance to Poison, Specialist Weapon Group (Entangling), Wrestling ",
+"Kislevite Kossar: Specialist Weapon Group (Two-handed), Strike to Injure",
+"Kithband Warrior: Marksman or Rover, Rapid Reload or Warrior Born ",
+"Marine: Disarm or Quick Draw, Strike Mighty Blow, Strike to Stun ",
+"Mercenary: Disarm or Quick Draw, Rapid Reload or Strike Mighty Blow, Sharpshooter or Strike to Stun",
+"Messenger: Orientation, Seasoned Traveller",
+"Militiaman: Specialist Weapon Group (Two-handed) or Rapid Reload, Strike Mighty Blow",
+"Miner: Orientation, Specialist Weapon Group (Two-handed), Very Resilient or Warrior Born",
+"Noble: Etiquette, Luck or Public Speaking, Savvy or Specialist Weapon (Fencing), Schemer or Specialist Weapon (Parrying)",
+"Norse Berserker: Frenzy, Menacing, Quick Draw, Specialist Weapon Group (Two-handed)",
+"Outlaw: Rover or Streetwise, Sharpshooter or Strike to Stun",
+"Outrider: Coolheaded or Very Strong, Orientation, Specialist Weapon Group (Entangling)",
+"Peasant: Hardy or Rover, Flee! or Specialist Weapon Group (Sling) ",
+"Pit Fighter: Disarm or Wrestling, Quick Draw or Strike to Injure, Specialist Weapon Group (Flail), Specialist Weapon Group (Parrying), Specialist Weapon Group (Two-handed), Strike Mighty Blow, Very Strong or Strong-minded ",
+"Protagonist: Disarm or Quick Draw, Menacing or Suave, Street Fighting, Strike Mighty Blow, Strike to Injure, Strike to Stun",
+"Rat Catcher: Resistance to Disease, Resistance to Poison, Specialist Weapon Group (Sling), Tunnel Rat",
+"Roadwarden: Quick Draw or Rapid Reload, Specialist Weapons Group (Gunpowder)",
+"Rogue: Flee! or Streetwise, Luck or Sixth Sense, Public Speaking ",
+"Runebearer: Flee!, Fleet Footed or Sixth Sense, Orientation, Rapid Reload, Very Resilient or Very Strong ",
+"Scribe: Linguistics",
+"Seaman: Hardy or Street Fighting, Seasoned Traveller, Strike Mighty Blow or Swashbuckler",
+"Servant: Acute Hearing or Flee!, Etiquette or Hardy, Lightning Reflexes or Very Resilient",
+"Shieldbreaker: Acute Hearing or Coolheaded, Orientation, Strike Mighty Blow, Strike to Injure, Strike to Stun",
+"Smuggler: Dealmaker or Streetwise",
+"Soldier: Disarm or Quick Draw, Sharpshooter or Strike Mighty Blow, Specialist Weapon Group (Gunpowder or Two-handed), Strike to Injure or Rapid Reload, Strike to Stun or Mighty Shot",
+"Squire: Etiquette, Specialist Weapon Group (Cavalry), Strike Mighty Blow",
+"Student: Etiquette or Linguistics, Savvy or Suave, Seasoned Traveller or Super Numerate",
+"Thief: Alley Cat or Streetwise, Super Numerate or Trapfinder",
+"Thug: Coolheaded or Lightning Reflexes, Disarm, Resistance to Poison or Quick Draw, Strike to Injure or Wrestling, Strike to Stun",
+"Toll Keeper: Lightning Reflexes or Marksman ",
+"Tomb Robber: Luck or Sixth Sense, Trapfinder or Tunnel Rat",
+"Tradesman: Dealmaker or Savvy ",
+"Troll Slayer: Disarm or Quick Draw, Hardy, Lightning Reflexes or Very Resilient, Specialist Weapon Group (Two-handed), Street Fighter, Strike Mighty Blow ",
+"Vagabond: Fleet Footed or Rover, Marksman or Orientation, Seasoned Traveller ",
+"Valet: Coolheaded or Suave, Dealmaker or Seasoned Traveller, Etiquette",
+"Watchman: Coolheaded or Savvy, Disarm or Street Fighting, Strike Mighty Blow, Strike to Stun ",
+"Woodsman: Fleet Footed or Very Resilient, Rover, Specialist Weapon Group (Two-handed) ",
+"Zealot: Coolheaded or Very Strong, Hardy or Suave, Public Speaking, Specialist Weapon Group (Flail)"};
+}

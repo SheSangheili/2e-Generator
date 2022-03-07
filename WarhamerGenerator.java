@@ -3273,8 +3273,104 @@ public class WarhamerGenerator extends javax.swing.JFrame {
      */
     public static void main(String args[]) throws FileNotFoundException, IOException {
         
+        int thing = 0;
+        int moo = 0;
+        /*
+        ArrayList<String> bap = new ArrayList<String>(
+        Arrays.asList(advanced,careers,entexts,skillz,talents,talexplained,tallists,trappingz));
+        */
+        while(moo < 8){
+            switch(thing){
+                case 0:{
+                    advanced myObj = new advanced();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        advance.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 1:{
+                    careers myObj = new careers();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        lore.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 2:{
+                    entexts myObj = new entexts();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":",2);
+                        entext.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 3:{
+                    skillz myObj = new skillz();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        skill.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 4:{
+                    talents myObj = new talents();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        talent.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 5:{
+                    talexplained myObj = new talexplained();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        taldis.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 6:{
+                    tallists myObj = new tallists();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        tallist.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+                case 7:{
+                    trappingz myObj = new trappingz();
+                    for(String w : myObj.x){
+                        String[] holdin = w.split(":");
+                        trap.put(holdin[0],holdin[1]);
+                    }
+                    thing++;
+                    break;
+                }
+            }
+            moo++;
+        }
         
+        //advanced myObj = new advanced();
+        /*
+        System.out.println(myObj.x[1]);
+        for(String w : myObj.x){
+            String[] holdin = w.split(":");
+            System.out.println(holdin[0]);
+            System.out.println(holdin[1]);
+            advance.put(holdin[0],holdin[1]);
+            
+        }
+        */
+        /*
         int counter = 0;
+        // but make sure you replace these 
         ArrayList<String> files = new ArrayList<String>(
         Arrays.asList("C:/Users/Baby_/Documents/NetBeansProjects/GUIFormExamples/src/examples/folder/career.txt",
                 "C:/Users/Baby_/Documents/NetBeansProjects/GUIFormExamples/src/examples/folder/entext.txt",
@@ -3327,7 +3423,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                             break;
                         }
                         case 8:{
-                            advance.put(key, value);
+                            //advance.put(key, value);
                             break;
                         }
                     }
@@ -3336,7 +3432,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 }
             }
         }
-        
+        */
         /*
         String filePath = "C:/Users/Baby_/Documents/NetBeansProjects/GUIFormExamples/src/examples/folder/career.txt";
         //HashMap<String, String> lore = new HashMap<String, String>();

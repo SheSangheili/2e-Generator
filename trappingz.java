@@ -1,0 +1,72 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examples.folder;
+
+/**
+ *
+ * @author Baby_
+ */
+public class trappingz {
+    String [] x = {"Agitator: Light Armour (Leather Jack), One set of Good Craftsmenship Clothes, 2d10 leaflets for various causes",
+"Apprentice Wizard: Quarter Staff, Backpack, Printed Book",
+"Bailiff: Light Armour (Leather Jack and Leather Skullcap), Riding Horse with Saddle and Harness, One Set of Good Craftsmenship Clothing",
+"Barber-Surgeon: Trade Tools (Barber-Surgeon)",
+"Boatman: Light Armour (Leather Jack), Row Boat",
+"Bodyguard: Buckler, Knuckle-dusters, A Pair of Throwing Axes or Throwing Knives, Light Armour (Leather Jack)",
+"Bone Picker: Cart, 3 Sacks",
+"Bounty Hunter: Crossbow with 10 bolts, Net, Light Armour (Leather Jerkin and Leather Skullcap), Manacles, 10 Yards of Rope",
+"Burgher: Abacus, Lantern, One Set of Good Clothing",
+"Camp Follower: Lucky Charm or Trade Tools, Pouch, Tent",
+"Charcoal-Burner: 3 Torches, Tinderbox, Hand Weapon (Hatchet)",
+"Coachman: Blunderbuss with powder/ammunition enough for 10 shots, Medium Armour (Mail Shirt and Leather Jack), Instrument (Coach Horn)",
+"Entertainer: Light Armour (Leather Jerkin), Any one of: Instrument (any one), Trade Tools (Performer), 3 Throwing Knives, 2 Throwing Axes, Any one of: Costume, One Set of Good Craftsmenship Clothes",
+"Envoy: Light Armour (Leather Jack), 2 sets of Good Craftsmenship Clothes, Writing Kit",
+"Estalian Diestro:  Foil or Rapier, One set of Best Craftsmenship Clothes, Perfume or Cologne, Healing Draught",
+"Ferryman: Crossbow with 10 bolts or Blunderbuss with powder/ammunition enough for 10 shots, Light Armour (Leather Jack)",
+"Fieldwarden: Sling with Ammunition, Lantern, Lamp Oil, Spade, Pony with Saddle and Harness",
+"Fisherman: Fish Hook and Line, Spear",
+"Grave Robber: Lantern, Lamp Oil, Pick, Sack, Spade",
+"Hedge Wizard: Healing Draught, Hood",
+"Hunter: Longbow with 10 Arrows, 2 Animal Traps, Antitoxin Kit",
+"Initiate: Religious Symbol (see Chapter 8: Religion and Belief for types), Robes",
+"Jailer: Bottle of Common Wine, Tankard, Any one of: Bola, Lasso, Net",
+"Kislevite Kossar: Bow with 10 Arrows, Great Weapon (Twohanded Axe), Medium Armour (Mail Coat, Leather Jack, and Leather Leggings)",
+"Kithband Warrior: Elfbow with 10 Arrows, Light Armour (Leather Jack)",
+"Marine: Bow or Crossbow with 10 Arrows or Bolts, Light Armour (Leather Jack), Shield, Grappling Hook, 10 Yards of Rope",
+"Mercenary: Crossbow with 10 Bolts, Shield, Medium Armour (Mail Shirt and Leather Jack), Healing Draught",
+"Messenger: Light Armour (Leather Jack), Map Case, Riding Horse with Saddle and Harness or Pony (for Halflings), Shield",
+"Militiaman: Halberd or Bow with 10 Arrows, Light Armour (Leather Jack and Leather Skullcap), Uniform",
+"Miner: Great Weapon (Two-handed Pick), Light Armour (Leather Jack), Pick, Spade, Storm Lantern, Lamp Oil",
+"Noble: Foil, Main Gauche, Noble’s Garb, Riding Horse with Saddle and Harness, 1d10 gc, Jewellery worth 6d10 gc",
+"Norse Berserker: Light Armour (Leather Jerkin), Bottle of Spirits, Great Weapon or Shield",
+"Outlaw: Bow with 10 Arrows, Light Armour (Leather Jerkin), Shield",
+"Outrider: Bow or Crossbow with 10 Arrows or Bolts, Net, Whip or Lasso, Light Armour (Leather Jack), Shield, 10 Yards of Rope, Riding Horse with Saddle and Harness",
+"Peasant: Sling or Quarter Staff, Leather Flask",
+"Pit Fighter: Flail or Great Weapon, Knuckle-duster, Shield or Buckler, Medium Armour (Mail Shirt and Leather Jack)",
+"Protagonist: Medium Armour (Mail Shirt and Leather Jack), Shield, Riding Horse with Saddle and Harness",
+"Rat Catcher: Sling with Ammunition, 4 Animal Traps, Pole with 1d10 dead rats, Small but Vicious Dog",
+"Roadwarden: Pistol with 10 Firearm Balls and Gunpowder, Medium Armour (Mail Shirt and Leather Jack), Shield, 10 Yards of Rope, Light Warhorse with Saddle and Harness (or Pony for Halfling)",
+"Rogue: One set of Best Craftsmenship Clothing or Dice or Deck of Cards, 1d10 gc",
+"Runebearer: Crossbow and 10 Bolts, Light Armour (Leather Jerkin), Healing Draught, Lucky Charm",
+"Scribe:  Knife, A Pair of Candles, Wax, 5 matches, Illuminated Book, Writing Kit",
+"Seaman: Leather Jerkin, Bottle of Poor Craftsmenship Spirits",
+"Servant: One Set of Good Craftsmenship Clothing, Pewter Tankard, Tinderbox, Storm Lantern, Lamp Oil",
+"Shieldbreaker: Crossbow with 10 bolts, Medium Armour (Mail Coat, Leather Jack and Leather Leggings), Shield, Grappling Hook, 10 Yards of Rope, Water Skin",
+"Smuggler: Light Armour (Leather Jack), 2 Torches, Draft Horse and Cart or Rowing Boat",
+"Soldier: Great Weapon (Halberd) or Firearm with ammunition for 10 shots, Shield, Light Armour (Full Leather Armour), Uniform",
+"Squire: Demilance, Medium Armour (Mail Shirt, Mail Coif, Leather Jack), Shield, Horse with Saddle and Harness",
+"Student: Two Textbooks corresponding to Knowledge Skills, Writing Kit",
+"Thief: Light Armour (Leather Jerkin), Sack, Lock picks, 10 Yards of Rop",
+"Thug: Knuckle-dusters, Medium Armour (Mail Shirt and Leather Jerkin)",
+"Toll Keeper: Chest, Crossbow with 10 Bolts, Medium Armour (Mail Shirt and Leather Jerkin), Shield, 1d10 gc",
+"Tomb Robber:  Light Armour (Leather Jack), Crowbar, Lantern, Lamp Oil, 10 Yards of Rope, 2 Sacks",
+"Tradesman: Light Armour (Leather Jerkin), 1d10 gc",
+"Troll Slayer: Great Weapon, Light Armour (Leather Jerkin), One Bottle of Poor Craftsmenship Spirits",
+"Vagabond: Back Pack, Rations (1 week), Tent, Water Skin",
+"Valet: Cologne, Purse, Two sets of Best Craftsmenship Clothing, Uniform",
+"Watchman: Light Armour (Leather Jack), Lantern and Pole, Lamp Oil, Uniform",
+"Woodsman: Great Weapon (Two-handed Axe), Light Armour (Leather Jack), Antitoxin Kit",
+"Zealot: Flail or Morning Star, Light Armour (Leather Jack), Bottle of Good Craftsmenship Spirits"};
+}
