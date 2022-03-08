@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package examples.folder;
+import java.awt.Point;
 import java.util.*;
 import java.io.*;
 
@@ -172,16 +173,131 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         int x = 1;
         int d = 0;
         
-        if( a == b ){
+        do{
             b = rand.nextInt(100)+1;
-        }
-        
+        } while (a == b );
+        String gorp = "";
         String Talents = "";
         
         if(index == 0){
             while(x<=2){
                 if(x == 1){
                     d = a;
+                    if((a>=1 && a<=4)&&(b >= 1 && b <= 4)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=5 && a<=9)&&(b >= 5 && b <= 9)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=10 && a<=13)&&(b >= 10 && b <= 13)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=14 && a<=18)&&(b >= 14 && b <= 18)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=19 && a<=22)&&(b >= 19 && b <= 22)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=23 && a<=27)&&(b >= 23 && b <= 27)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=28 && a<=31)&&(b >= 28 && b <= 31)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=32 && a<=35)&&(b >= 32 && b <= 35)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=36 && a<=40)&&(b >= 36 && b <= 40)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=41 && a<=44)&&(b >= 41 && b <= 44)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=45 && a<=49)&&(b >= 45 && b <= 49)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=50 && a<=53)&&(b >= 50 && b <= 53)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=54 && a<=57)&&(b >= 54 && b <= 57)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=58 && a<=61)&&(b >= 58 && b <= 61)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=62 && a<=66)&&(b >= 62 && b <= 66)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=67 && a<=71)&&(b >= 67 && b <= 71)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=72 && a<=75)&&(b >= 72 && b <= 75)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=76 && a<=79)&&(b >= 76 && b <= 79)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=80 && a<=83)&&(b >= 80 && b <= 83)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=84 && a<=87)&&(b >= 84 && b <= 87)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=88 && a<=91)&&(b >= 88 && b <= 91)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=92 && a<=95)&&(b >= 92 && b <= 95)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
+                    else if((a>=96 && a<=100)&&(b >= 96 && b <= 100)){
+                        do{
+                            b = rand.nextInt(100)+1;
+                        }while(((a>=1 && a<=4)&&(b >= 1 && b <= 4)) == true);
+                    }
                 } else if (x == 2){
                     d = b;
                 }
@@ -189,94 +305,117 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 switch (d){
                     case 1: case 2: case 3: case 4:{
                         Talents += " Acute Hearing ";
+                        gorp += "Acute Hearing: " + taldis.get("Acute Hearing")+'\n';
                         break;
                     }
                     case 5: case 6: case 7: case 8: case 9:{
                         Talents += " Ambidextrous ";
+                        gorp += "Ambidextrous: " + taldis.get("Ambidextrous")+'\n';
                         break;
                     }
                     case 10: case 11: case 12: case 13:{
                         Talents += " Coolheaded ";
+                        gorp += "Coolheaded: " + taldis.get("Coolheaded")+'\n';
                         break;
                     }
                     case 14: case 15: case 16: case 17: case 18:{
                         Talents += " Excellent Vision ";
+                        gorp += "Excellent Vision: " + taldis.get("Excellent Vision")+'\n';
                         break;
                     }
                     case 19: case 20: case 21: case 22:{
                         Talents += " Fleet Footed ";
+                        gorp += "Fleet Footed: " + taldis.get("Fleet Footed")+'\n';
                         break;
                     }
                     case 23: case 24: case 25: case 26: case 27:{
                         Talents += " Hardy ";
+                        gorp += "Hardy: " + taldis.get("Hardy")+'\n';
                         break;
                     }
                     case 28: case 29: case 30: case 31:{
                         Talents += " Lightning Reflexes ";
+                        gorp += "Lightning Reflexes: " + taldis.get("Lightning Reflexes")+'\n';
                         break;
                     }
                     case 32: case 33: case 34: case 35:{
                         Talents += " Luck ";
+                        gorp += "Luck: " + taldis.get("Luck")+'\n';
                         break;
                     } 
                     case 36: case 37: case 38: case 39: case 40:{
                         Talents += " Marksman ";
+                        gorp += "Marksman: " + taldis.get("Marksman")+'\n';
                         break;
                     }
                     case 41: case 42: case 43: case 44:{
                         Talents += " Mimic ";
+                        gorp += "Mimic: " + taldis.get("Mimic")+'\n';
                         break;
                     }
                     case 45: case 46: case 47: case 48: case 49:{
                         Talents += " Night Vision ";
+                        gorp += "Night Vision: " + taldis.get("Night Vision")+'\n';
                         break;
                     } 
                     case 50: case 51: case 52: case 53:{
                         Talents += " Resistance to Disease ";
+                        gorp += "Resistance to Disease: " + taldis.get("Resistance to Disease")+'\n';
                         break;
                     }
                     case 54: case 55: case 56: case 57:{
                         Talents += " Resistance to Magic ";
+                        gorp += "Resistance to Magic: " + taldis.get("Resistance to Magic")+'\n';
                         break;
                     }
                     case 58: case 59: case 60: case 61:{
                         Talents += " Resistance to Poison ";
+                        gorp += "Resistance to Poison: " + taldis.get("Resistance to Poison")+'\n';
                         break;
                     }
                     case 62: case 63: case 64: case 65: case 66:{
                         Talents += " Savvy ";
+                        gorp += "Savvy: " + taldis.get("Savvy")+'\n';
                         break;
                     }
                     case 67: case 68: case 69: case 70: case 71:{
                         Talents += " Sixth Sense ";
+                        gorp += "Sixth Sense: " + taldis.get("Sixth Sense")+'\n';
                         break;
                     }
                     case 72: case 73: case 74: case 75:{
                         Talents += " Strong-minded ";
+                        gorp += "Strong-minded: " + taldis.get("Strong-minded")+'\n';
                         break;
                     }
                     case 76: case 77: case 78: case 79:{
                         Talents += " Sturdy ";
+                        gorp += "Sturdy: " + taldis.get("Sturdy")+'\n';
                         break;
                     }
                     case 80: case 81: case 82: case 83:{
                         Talents += " Suave ";
+                        gorp += "Suave: " + taldis.get("Suave")+'\n';
                         break;
                     }
                     case 84: case 85: case 86: case 87:{
                         Talents += " Super Numerate ";
+                        gorp += "Super Numerate: " + taldis.get("Super Numerate")+'\n';
                         break;
                     }
                     case 88: case 89: case 90: case 91:{
                         Talents += " Very Resilient ";
+                        gorp += "Very Resilient: " + taldis.get("Very Resilient")+'\n';
                         break;
                     }
                     case 92: case 93: case 94: case 95:{
                         Talents += " Very Strong ";
+                        gorp += "Very Strong: " + taldis.get("Very Strong")+'\n';
                         break;
                     }
                     case 96: case 97: case 98: case 99: case 100:{
                         Talents += " Warrior Born ";
+                        gorp += "Warrior Born: " + taldis.get("Warrior Born")+'\n';
                         break;
                     }
                 }
@@ -377,7 +516,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 }
             }
         }
-        return Talents;
+        return Talents + '\n' + '\n'+ gorp;
     }
     
     /**
@@ -787,6 +926,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         RacialDisplay.setAutoscrolls(false);
         RacialDisplay.setFocusable(false);
         jScrollPane3.setViewportView(RacialDisplay);
+        jScrollPane3.getViewport().setViewPosition( new Point(0, 0) );
 
         CareerList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Agitator", "Apprentice Wizard", "Bailiff", "Barber-Surgeon", "Boatman", "Bodyguard", "Bone Picker", "Bounty Hunter", "Burgher", "Camp Follower", "Charcoal-Burner", "Coachman", "Entertainer", "Envoy", "Estalian Diestro", "Ferryman", "Fieldwarden", "Fisherman", "Grave Robber", "Hedge Wizard", "Hunter", "Initiate", "Jailer", "Kislevite Kossar", "Kithband Warrior", "Marine", "Mercenary", "Messenger", "Militiaman", "Miner", "Noble", "Norse Berserker", "Outlaw", "Outrider", "Peasant", "Pit Fighter", "Protagonist", "Rat Catcher", "Roadwarden", "Rogue", "Runebearer", "Scribe", "Seaman", "Servant", "Shieldbreaker", "Smuggler", "Soldier", "Squire", "Student", "Thief", "Thug", "Toll Keeper", "Tomb Robber", "Tradesman", "Troll Slayer", "Vagabond", "Valet", "Watchman", "Woodsman", "Zealot" };
@@ -802,6 +942,10 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         jScrollPane4.setViewportView(CareerList);
 
         jLabel22.setText("Career Title");
+
+        jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane5.setRowHeaderView(null);
+        jScrollPane5.setViewportView(null);
 
         Fluff.setColumns(20);
         Fluff.setLineWrap(true);
@@ -875,6 +1019,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
         jLabel25.setText("Trappings");
 
         Trappings.setRowHeaderView(null);
+        Trappings.setViewportView(null);
 
         Trap.setColumns(20);
         Trap.setLineWrap(true);
@@ -1163,7 +1308,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel24)
                                 .addGap(18, 18, 18)
-                                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 113, Short.MAX_VALUE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel25)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1174,6 +1319,8 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                                 .addComponent(jScrollPane10)))))
                 .addGap(19, 19, 19))
         );
+
+        jScrollPane3.getViewport().setViewPosition( new Point(0, 0) );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -3284,7 +3431,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 0:{
                     advanced myObj = new advanced();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         advance.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3293,7 +3440,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 1:{
                     careers myObj = new careers();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         lore.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3311,7 +3458,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 3:{
                     skillz myObj = new skillz();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         skill.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3320,7 +3467,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 4:{
                     talents myObj = new talents();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         talent.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3329,7 +3476,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 5:{
                     talexplained myObj = new talexplained();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         taldis.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3338,7 +3485,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 6:{
                     tallists myObj = new tallists();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         tallist.put(holdin[0],holdin[1]);
                     }
                     thing++;
@@ -3347,7 +3494,7 @@ public class WarhamerGenerator extends javax.swing.JFrame {
                 case 7:{
                     trappingz myObj = new trappingz();
                     for(String w : myObj.x){
-                        String[] holdin = w.split(":");
+                        String[] holdin = w.split(":",2);
                         trap.put(holdin[0],holdin[1]);
                     }
                     thing++;
